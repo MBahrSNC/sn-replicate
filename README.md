@@ -13,3 +13,4 @@
 1. https://replicate.com/
 2. Sign in with Github
 3. https://replicate.com/meta/meta-llama-3.1-405b-instruct?input=http
+4. Copy your API key
