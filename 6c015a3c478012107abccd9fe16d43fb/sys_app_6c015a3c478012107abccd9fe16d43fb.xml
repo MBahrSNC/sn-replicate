@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>DS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>42ea5ff8470812107abccd9fe16d4383</logo>
+        <menu/>
+        <name>Replicate</name>
+        <package_json/>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_298439_replicate</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_298439_replicate</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 19:07:51</sys_created_on>
+        <sys_id>6c015a3c478012107abccd9fe16d43fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 00:30:42</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c015a3c478012107abccd9fe16d43fb"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9d9d9d</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <hash>41954d2377cfcbcc6decd1d07e5ae014a07f5bb064563efb371a26512e0a3443</hash>
+        <image_height>45</image_height>
+        <image_width>47</image_width>
+        <size_bytes>306</size_bytes>
+        <size_compressed>311</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 00:30:42</sys_created_on>
+        <sys_id>42ea5ff8470812107abccd9fe16d4383</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 00:30:42</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>6c015a3c478012107abccd9fe16d43fb</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="42ea5ff8470812107abccd9fe16d4383">42ea5ff8470812107abccd9fe16d4383</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 00:30:42</sys_created_on>
+        <sys_id>82ea5ff8470812107abccd9fe16d4383</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLS+kCsy8EGJO3eGy0HUozFQe5ODOvOybwEcljSHX0dGRg29nP/SWQF8jkLPCKLGRiESkCY8V6afAVQ8Lini2NIhvPb64xcLQoCrAF3J1caf015dbJsbm5EhtCipb84/x+cEHbEXc3r/7s7S+Kq5lzKerr3u1WV2m2V4PU2hxe/+Vbj5eleYegmq1t2+Pb0J543Pmu031527VVUttXu6W8rOb8rB0eH1Te2f78bKFYt1/rwqfO16A+fNu34pMFjryS/Z/PpR6cW+8j++9Afea5ys+PEn2mLDSrCOB5G/9/15LjPuchvciuDuuJs2UFaAyVQiWV8+2+xnWvLbX54h/3iutTZnU+/iAG9xODp6ueyzimhCQBlccLIMgEAAA==</data>
+        <length>404</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="42ea5ff8470812107abccd9fe16d4383">42ea5ff8470812107abccd9fe16d4383</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 00:30:42</sys_created_on>
+        <sys_id>06ea5ff8470812107abccd9fe16d4383</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Replicate</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 00:27:20</sys_created_on>
+        <sys_id>691a13f4474812107abccd9fe16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Replicate</sys_name>
+        <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name>sys_hub_category_691a13f4474812107abccd9fe16d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 00:27:20</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=691a13f4474812107abccd9fe16d438f"/>
+</record_update>
