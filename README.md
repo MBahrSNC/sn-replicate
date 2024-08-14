@@ -7,7 +7,7 @@
 3. https://replicate.com/meta/meta-llama-3.1-405b-instruct?input=http
 4. Copy your API key
 
-## Install
+## ServiceNow
 
 1. Import from source control in Studio.
 2. Open Replicate app in Studio and select the system property.
