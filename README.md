@@ -8,7 +8,7 @@
 4. Open the example subflow and test it.
 5. 🥳 🍻 😃
 
-## Replicate
+## Replicate - Run AI with an API
 
 1. https://replicate.com/
 2. Sign in with Github
