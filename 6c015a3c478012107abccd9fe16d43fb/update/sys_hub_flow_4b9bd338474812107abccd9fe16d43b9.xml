@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2056000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1353668000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,10 +15,10 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>example_replicate_subflow</internal_name>
-        <label_cache>[{"name":"subflow.prompt","label":"Input➛prompt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"61c96891-b020-4e64-968b-565abe1be0ae":["input"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a500096e-9cc0-4898-9578-baa55a59ba3b"}}]</label_cache>
+        <label_cache>[{"name":"subflow.prompt","label":"Input➛prompt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"61c96891-b020-4e64-968b-565abe1be0ae":["input"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a500096e-9cc0-4898-9578-baa55a59ba3b"}},{"name":"61c96891-b020-4e64-968b-565abe1be0ae.response","label":"1 - Replicate HTTP Request➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"49ccf8b1-8b3b-4355-88d0-346bfabda7d1":["results-0"],"d1da63af-d0f7-46f1-b19a-b27e101aa23c":["results-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"b6847509-b57d-4c0f-a3df-a278a40d4d22"}}]</label_cache>
         <master_snapshot>ec6d533c474812107abccd9fe16d4380</master_snapshot>
         <master_snapshot_digest/>
-        <name>Example Replicate Subflow</name>
+        <name>Example Replicate Subflow - COPY ME</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -36,20 +36,21 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4b9bd338474812107abccd9fe16d43b9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Example Replicate Subflow</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Example Replicate Subflow - COPY ME</sys_name>
         <sys_overrides/>
         <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
         <sys_update_name>sys_hub_flow_4b9bd338474812107abccd9fe16d43b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 01:08:06</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:35:00</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_variable_value action="delete_multiple" query="document_key=4b9bd338474812107abccd9fe16d43b9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9^id=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=4b9bd338474812107abccd9fe16d43b9^sys_idNOT IN8f9bd338474812107abccd9fe16d43bb"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -105,7 +106,7 @@
         <label>prompt</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Example Replicate Subflow">4b9bd338474812107abccd9fe16d43b9</model>
+        <model display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</model>
         <model_id>4b9bd338474812107abccd9fe16d43b9</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_4b9bd338474812107abccd9fe16d43b9</name>
@@ -128,14 +129,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 00:36:22</sys_created_on>
         <sys_id>013cd3f0474812107abccd9fe16d432e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 01:08:02</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:34:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -149,7 +150,92 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=013cd3f0474812107abccd9fe16d432e"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=4b9bd338474812107abccd9fe16d43b9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4b9bd338474812107abccd9fe16d43b9^sys_idNOT IN1d47cc4a475012107abccd9fe16d43ee"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c8d3396a-6e23-4266-b3ee-75ecaf59d093</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</model>
+        <model_id>4b9bd338474812107abccd9fe16d43b9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:08</sys_created_on>
+        <sys_id>1d47cc4a475012107abccd9fe16d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1d47cc4a475012107abccd9fe16d43ee"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9^sys_idNOT INd53c17b8474812107abccd9fe16d43a6"/>
@@ -158,9 +244,9 @@
         <action_type_parent display_value="Replicate HTTP Request">26919a3c478012107abccd9fe16d4369</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f7b4d6b047c012107abccd9fe16d4313</compiled_snapshot>
         <display_text/>
-        <flow display_value="Example Replicate Subflow">4b9bd338474812107abccd9fe16d43b9</flow>
+        <flow display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -168,15 +254,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 00:36:23</sys_created_on>
         <sys_id>d53c17b8474812107abccd9fe16d43a6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 00:41:30</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:35:46</sys_updated_on>
         <ui_id>61c96891-b020-4e64-968b-565abe1be0ae</ui_id>
-        <values>H4sIAAAAAAAA/+1U32+bMBD+VxDPgfArQPI2qapUaVundps0NRUy5mi8GuPapm0W5X/fOUCXpKpUddOeygOI78733X3nu6uNyyp34UYl5LM0y5OMBmEUBhkpKa3mNYRplcRx5U5cQRpATwW67RSFQhKzQvie8M7i0/tw2rQVcD1twJDdy+OcNMSL/dBLglnpMaGN6qiZSgUVo4a1QmOIimnJyfr730eiK8YrBcJdXF1PXEkU5mxAuYvNkcmsJRSclMCR8NIoJm7w+GulGA9eDFo4X3otXpDIkiGsR5pWVTancOLCowFRAdLWhGuYuA0RFTGtWrsLrA8BBaQ6F3z95LFiwmAw1/o+avYLI+dBEFjPGrA+Cr2VrlpG4VxaaXrEkJKPxpZ3jfjcp2s7ADXpuBk7gEinoahA2uws30BeX67ah4uR6JSJXSGDkbeU8Kc/YrDcsjOgrfod+3okQo98PG4BcGiQsWiIlIgUUrX3bMeCSTf+Dccfv+btA2an2Y3wya75PqpG/FPET3bwd6KYLfcThsHDlu6bYHcdnNkWJyHEaZllXpiGkZfM49orS5J7cxJl81mNlqx0tztJi7vOFtWLNMhR9Iqig6aKSfMBU7iHofLtZBipeTLLwzR+4R7R8M99YUJ2Zm+UNkvh4LPsDUt34QyIxUwri1uLzYLJISotGvjzPRjVa+QuwtLdbHRXWuX8Ht1ul+6eK96mwrS3ILR1D4Mo2TcysWc8IIYGBSamU9DTp3tGvdZoL/az+NF2DlHgEGcFXNYdd4jWTBsijH+QDw62tpesQNEJN+tj4loBtlPQ9YFDb9/az/b5ZnkX9l8J+7ZFe7LGG8+oc17+BGrGhfuKQRkDnA2TcjQ4w4Kt+vBFO4YfFm30vmifL9pBLIRs/f9r82bBLJvltPLyLJ3j5s1TL0+i0ouTpCY0zqMoSd68ea9/A60UcC3OCAAA</values>
+        <values>H4sIAAAAAAAA/+1U30/bMBD+Vyo/N2mSpk3atwmEhLSNCRjSRFF0cS7Uw3FC7BS6qv/7zk1aShES09ie6EMqf9/5fny+u+sVExmbsiDFeDSO4jDinh/4XgQp59kkR3+chcNhxvpMQYFkWaMum5pjUoGZE7wA2Vh8sPAHRZmh1IMCDWw+jpRQgDN0fSf0RqkjlDZ1w82gqjET3IhSaXKRCV1JWF79vSc+FzKrUbHp9U2fVVBTzgZrNl0dUG8tWkKKkkzPu6p739qqXxHDLCsLU25C3Xbnz52Liy1Y1plNye8zfDSoMqRccpAa+6wAlYEp6yWbUnkE1AjZmZLLncVcKEPOmLV91OIXhYs9z7OWOVJ5HFt2d7yEVOJxq3BL5cdg4GIjX1N35nxeCo66FSfDHBppjvax1uCsskq3V4x13N0uZVOor60mbOdg+6CENBqTDCtbrc2/Kya/mJcP59tMT4TaCNORsuQgdycwJF/aGJvPijXi8kDpFnmhNUosKGJSQFURklR1uRCbKJR04d5KOri5LB8oOy1ulQubXnLpFcA9Ifx4A19BLWy5X8gNXbbhvitx3+Cp7aPQx+E4jSLHH/uBE06GuZOmEDsTCKLJKCcmStm6z/RSH0nQ+kkoeqXkvrFltrJ1AiWtxvYKr0VlPlFSC+y0WPe7mZ2Eo9gfD19pX+4/talQVWP2ZnU1Uz36zVpixqa9DrGYKavkzmIjr/8crSzquZM9mPQsqo2HGVutdJNaLd0WXa9nbM+U+jUx5R0qbc19Lwj3SaH2yGeBsSDJwbZqG368R5KixCf7Wfwomx7U2IPeHGWVN7JHigttQBn3WT60ObRtu4REB2mWh4HzGumBFV8+M2j5tf1bv1xdH8K+l7B/tsnfMArbTX7azcLBaHSbO1sSLnhSpj+Rm4MNftySvbMt2W3y4GOT//tN3r0MQVbP/7XaI28UjWKeOXE0ntBqj8dOHAapMwzDHPgwDoIwfMfVfvMbcT4yXJAJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4b9bd338474812107abccd9fe16d43b9^sys_idNOT IN0247008a475012107abccd9fe16d433d"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0a47008a475012107abccd9fe16d433c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>results</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:11</sys_created_on>
+        <sys_id>0247008a475012107abccd9fe16d433d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:54</sys_updated_on>
+        <ui_id>d1da63af-d0f7-46f1-b19a-b27e101aa23c</ui_id>
+        <values>H4sIAAAAAAAA/6VTW2/aMBT+L34mUQIhEN4qTZUqdau0sr5MU3Rin4BVx3ZtB8oQ/33HJJSKvUza4/nO5bvEOTLTB9sHvzZ33suNZqufRyYFW7FcFAvOCygW8yyf5tkCGs5F1WJeimKGyCZMQ4c06dD3KngCdqD6iByPZc6rclnlSZNNs6TAskiobpJ5OYcG8wYzwJQWrdEeTyfaFdJbBYeX/zjBt1IJh9HErwmz4EhfQMdWx5tWOFisFV1RxPQcnNQbWv9X25fFq++/gogEBPjLaeNE1JFPGL4H1AKJqgXlccI60AKCcYcPxCGIJ62uwFbqQNdYHH738jedXmZZFidbJFMchy7fGsnxyQZp9IAEaNSlaVTf6W+D0pg3tkBqL3kT0nusBdooL/KN5O3z1uy/X4jupT47GZvKcFAfFQTy2/QBfYy8l+ubFAbk8TZ3VNgRY92BtYTU1pmdPLOQ6C7dKCrSVpk9qYtvNAUeHaYUG6T3hH85wy/gZLT7lc7QcqT7oeVbjw/xu/KlmM2qEpISp7OkmJZl0tDnTBZz5NDOK5FVM3Y6R1q/9dHUENIYRz0kSgOeO2nDHUnY4ej8RE9K6vgbDc9rNyoZS4FcehK8jtjDpzlxoIcj+Wdob9xrtHrFTn8AFat0nqQDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4b9bd338474812107abccd9fe16d43b9^sys_idNOT IN153cd3f0474812107abccd9fe16d4331"/>
@@ -204,7 +316,30 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4b9bd338474812107abccd9fe16d43b9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9^sys_idNOT IN2547cc4a475012107abccd9fe16d43f2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:09</sys_created_on>
+        <sys_id>2547cc4a475012107abccd9fe16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b9bd338474812107abccd9fe16d43b9"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -220,12 +355,12 @@
         <description>An example of calling the meta / meta-llama-3.1-405b-instruct fine-tuned for chat completions</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>example_replicate_subflow</internal_name>
-        <label_cache>[{"name":"subflow.prompt","label":"Input➛prompt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"61c96891-b020-4e64-968b-565abe1be0ae":["input"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a500096e-9cc0-4898-9578-baa55a59ba3b"}}]</label_cache>
+        <label_cache>[{"name":"subflow.prompt","label":"Input➛prompt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"61c96891-b020-4e64-968b-565abe1be0ae":["input"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a500096e-9cc0-4898-9578-baa55a59ba3b"}},{"name":"61c96891-b020-4e64-968b-565abe1be0ae.response","label":"1 - Replicate HTTP Request➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"49ccf8b1-8b3b-4355-88d0-346bfabda7d1":["results-0"],"d1da63af-d0f7-46f1-b19a-b27e101aa23c":["results-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"b6847509-b57d-4c0f-a3df-a278a40d4d22"}}]</label_cache>
         <master>true</master>
-        <name>Example Replicate Subflow</name>
+        <name>Example Replicate Subflow - COPY ME</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Example Replicate Subflow">4b9bd338474812107abccd9fe16d43b9</parent_flow>
+        <parent_flow display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -237,7 +372,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec6d533c474812107abccd9fe16d4380</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -245,12 +380,13 @@
         <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 01:08:05</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:34:58</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ec6d533c474812107abccd9fe16d4380"/>
     <sys_variable_value action="delete_multiple" query="document_key=ec6d533c474812107abccd9fe16d4380"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380^id=ec6d533c474812107abccd9fe16d4380"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ec6d533c474812107abccd9fe16d4380^sys_idNOT INa86d533c474812107abccd9fe16d4381"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -306,7 +442,7 @@
         <label>prompt</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Example Replicate Subflow">ec6d533c474812107abccd9fe16d4380</model>
+        <model display_value="Example Replicate Subflow - COPY ME">ec6d533c474812107abccd9fe16d4380</model>
         <model_id>ec6d533c474812107abccd9fe16d4380</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_ec6d533c474812107abccd9fe16d4380</name>
@@ -329,14 +465,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 00:41:31</sys_created_on>
         <sys_id>ec6d533c474812107abccd9fe16d4382</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 01:08:05</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:34:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -350,7 +486,92 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ec6d533c474812107abccd9fe16d4382"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=ec6d533c474812107abccd9fe16d4380"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ec6d533c474812107abccd9fe16d4380^sys_idNOT INe957808a475012107abccd9fe16d439a"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c8d3396a-6e23-4266-b3ee-75ecaf59d093</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>results</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>results</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Example Replicate Subflow - COPY ME">ec6d533c474812107abccd9fe16d4380</model>
+        <model_id>ec6d533c474812107abccd9fe16d4380</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:26</sys_created_on>
+        <sys_id>e957808a475012107abccd9fe16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e957808a475012107abccd9fe16d439a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec6d533c474812107abccd9fe16d4380"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380"/>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380^sys_idNOT IN3c6d533c474812107abccd9fe16d4396"/>
@@ -361,7 +582,7 @@
         <comment/>
         <compiled_snapshot>f7b4d6b047c012107abccd9fe16d4313</compiled_snapshot>
         <display_text/>
-        <flow display_value="Example Replicate Subflow">ec6d533c474812107abccd9fe16d4380</flow>
+        <flow display_value="Example Replicate Subflow - COPY ME">ec6d533c474812107abccd9fe16d4380</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -377,7 +598,33 @@
         <values>H4sIAAAAAAAA/+1U30/bMBD+Vyo/N2mSpk3atwmEhLSNCRjSRFF0cS7Uw3FC7BS6qv/7zk1aShES09ie6EMqf9/5fny+u+sVExmbsiDFeDSO4jDinh/4XgQp59kkR3+chcNhxvpMQYFkWaMum5pjUoGZE7wA2Vh8sPAHRZmh1IMCDWw+jpRQgDN0fSf0RqkjlDZ1w82gqjET3IhSaXKRCV1JWF79vSc+FzKrUbHp9U2fVVBTzgZrNl0dUG8tWkKKkkzPu6p739qqXxHDLCsLU25C3Xbnz52Liy1Y1plNye8zfDSoMqRccpAa+6wAlYEp6yWbUnkE1AjZmZLLncVcKEPOmLV91OIXhYs9z7OWOVJ5HFt2d7yEVOJxq3BL5cdg4GIjX1N35nxeCo66FSfDHBppjvax1uCsskq3V4x13N0uZVOor60mbOdg+6CENBqTDCtbrc2/Kya/mJcP59tMT4TaCNORsuQgdycwJF/aGJvPijXi8kDpFnmhNUosKGJSQFURklR1uRCbKJR04d5KOri5LB8oOy1ulQubXnLpFcA9Ifx4A19BLWy5X8gNXbbhvitx3+Cp7aPQx+E4jSLHH/uBE06GuZOmEDsTCKLJKCcmStm6z/RSH0nQ+kkoeqXkvrFltrJ1AiWtxvYKr0VlPlFSC+y0WPe7mZ2Eo9gfD19pX+4/talQVWP2ZnU1Uz36zVpixqa9DrGYKavkzmIjr/8crSzquZM9mPQsqo2HGVutdJNaLd0WXa9nbM+U+jUx5R0qbc19Lwj3SaH2yGeBsSDJwbZqG368R5KixCf7Wfwomx7U2IPeHGWVN7JHigttQBn3WT60ObRtu4REB2mWh4HzGumBFV8+M2j5tf1bv1xdH8K+l7B/tsnfMArbTX7azcLBaHSbO1sSLnhSpj+Rm4MNftySvbMt2W3y4GOT//tN3r0MQVbP/7XaI28UjWKeOXE0ntBqj8dOHAapMwzDHPgwDoIwfMfVfvMbcT4yXJAJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ec6d533c474812107abccd9fe16d4380^sys_idNOT INb957808a475012107abccd9fe16d43a4"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0a47008a475012107abccd9fe16d433c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Example Replicate Subflow - COPY ME">ec6d533c474812107abccd9fe16d4380</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>results</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:26</sys_created_on>
+        <sys_id>b957808a475012107abccd9fe16d43a4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:58</sys_updated_on>
+        <ui_id>d1da63af-d0f7-46f1-b19a-b27e101aa23c</ui_id>
+        <values>H4sIAAAAAAAA/6VTy27bMBD8F54tQbJl2c4tiBEgQNoAjZtLURgrcmUToUiFpOy4hv+9S1N+tL4U6E073MfM7GrPTOfbzruFuXdOrjS7+7FnUrA7lotiwnkBxWSc5cM8m0DFuZjVmJeiGCGyAdPQIGVadJ3yjoANqC4g+32Z81k5neVJlQ2zpMCySCiuknE5hgrzCjPAlApbox0eDlQrpGsV7N7+owVfSyUsBhE/B6wFS/w8WnZHkjR9aFDPUr9T95vkf5WsaLT6Q/ONCX7XBsB5K/Wqj5/7stcTaKwIxPIBw0+PWiDNr0E5HLAGtABv7O6MWATxotUFWJOcqKKBTyd/0bxplmUhs0bSxDG+nsMFVArn0eH4VM/BA9HpuO8sniwxkqOLjgisgRQ9XGMx4aX10uhY4kPjvtqortFfox3s3OC0UEI6h0uBbZAb+Pdi6te12X47MX2U+uhM/6gMB3WOwJN/VecDnz3r5OIvqyNyYzYqbGjisoG2JWTZWrORxylEuklXioK0VmZL7MJPkAIPClNaA6SPhM+P8BtYGeR+oTZUHMZ91/Kjw6dwPHwqRqNZCUmJw1FSDMsyqehmkskYOdTjmchmI3YYMLdzDwqcuxhFW1p+dEFmtK03aBk9DiXcytbfE6kN9l4cws3q8OfGzWx6buflcelIwnHvT1d5Ykf3Kvk1tDX2PYi/YIff51KpVBcEAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ec6d533c474812107abccd9fe16d4380"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=ec6d533c474812107abccd9fe16d4380"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ec6d533c474812107abccd9fe16d4380^sys_idNOT INfc6d533c474812107abccd9fe16d4391"/>
@@ -405,28 +652,51 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ec6d533c474812107abccd9fe16d4380"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380^sys_idNOT INb557808a475012107abccd9fe16d439f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>results</element>
+        <help/>
+        <hint/>
+        <label>results</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:34:26</sys_created_on>
+        <sys_id>b557808a475012107abccd9fe16d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:34:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ec6d533c474812107abccd9fe16d4380"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>4b9bd338474812107abccd9fe16d43b9</sys_id>
         <latest_snapshot>ec6d533c474812107abccd9fe16d4380</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=4b9bd338474812107abccd9fe16d43b9"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4b9bd338474812107abccd9fe16d43b9^sys_idNOT INc96d533c474812107abccd9fe16d43c9"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@5163dd38</plan>
-        <plan_id display_value="Example Replicate Subflow">4b9bd338474812107abccd9fe16d43b9</plan_id>
-        <snapshot>ec6d533c474812107abccd9fe16d4380</snapshot>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"c96d533c474812107abccd9fe16d43c9","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Example Replicate Subflow - COPY ME">4b9bd338474812107abccd9fe16d43b9</plan_id>
+        <snapshot>15a70c8a475012107abccd9fe16d435f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 00:41:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c96d533c474812107abccd9fe16d43c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 01:08:06</sys_updated_on>
+        <sys_updated_on>2024-08-29 16:35:00</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

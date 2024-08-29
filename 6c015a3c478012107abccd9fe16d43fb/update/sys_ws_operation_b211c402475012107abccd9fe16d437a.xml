@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Text2Text</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+
+    try {
+        var prompt = request.body.data.input;
+
+        var inputs = {};
+        inputs['prompt'] = prompt; // String 
+
+        // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+        // sn_fd.FlowAPI.getRunner().subflow('x_298439_replicate.example_replicate_subflow').inBackground().withInputs(inputs).run();
+
+        // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_298439_replicate.example_replicate_subflow').inForeground().withInputs(inputs).run();
+        
+		var outputs = result.getOutputs();
+        // var output = outputs['response']; // String
+        response.setBody(outputs);
+
+        // Current subflow has no outputs defined.		
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_298439_replicate/api/text2text</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/text2text</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:09:05</sys_created_on>
+        <sys_id>b211c402475012107abccd9fe16d437a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Text2Text</sys_name>
+        <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name>sys_ws_operation_b211c402475012107abccd9fe16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:35:35</sys_updated_on>
+        <web_service_definition display_value="Replicate">92cff77d471012107abccd9fe16d43fe</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b211c402475012107abccd9fe16d437a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:09:05</sys_created_on>
+        <sys_id>d6814402475012107abccd9fe16d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:09:05</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

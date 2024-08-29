@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_298439_replicate/api</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Replicate</name>
+        <namespace>x_298439_replicate</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>api</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 16:02:44</sys_created_on>
+        <sys_id>92cff77d471012107abccd9fe16d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Replicate</sys_name>
+        <sys_package display_value="Replicate" source="x_298439_replicate">6c015a3c478012107abccd9fe16d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Replicate">6c015a3c478012107abccd9fe16d43fb</sys_scope>
+        <sys_update_name>sys_ws_definition_92cff77d471012107abccd9fe16d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 16:02:59</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
